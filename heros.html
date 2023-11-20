@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      href="https://play-lh.googleusercontent.com/Zwl6GVDczfTGf9-phVPWwW0Qfi7s3U2wVBvJHqxPPiBG3jwvpfWVxYnugVMdYJyb6Q=s48-rw"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Play</title>
+    <style media="screen">
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+
+      }
+      button {
+        background-color: rgb(0, 50, 143);
+         box-shadow: 0 0 5px rgb(0, 50, 143) , 0 0 25px rgb(0, 50, 143) ;
+        width: 190px;
+        height: 60px;
+      }
+      button:hover {
+        background-color: cyan;
+        box-shadow: 0 0 5px cyan , 0 0 25px cyan , 0 0 50px cyan ,0 0 100px cyan;
+      }
+
+      body {background-image: radial-gradient(circle, rgba(0, 112, 224, 1) 17%, rgb(0, 32, 66) 74%);
+        width: 100%;
+        height: 100%;
+      }
+      .container {
+        width: 1000px;
+        height: 500px;
+        left: 700px;
+        position: absolute;
+        transform: translate(-50%, -50px);
+        overflow: hidden;
+        border: 10px solid darkblue;
+        border-radius: 8px;
+        box-shadow: 10px 25px 30px rgb(0, 35, 190);
+      }
+      .images {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        animation: movslider 30s infinite;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      @keyframes movslider {
+        0% {
+          transform: translate(0);
+        }
+        10% {
+          transform: translate(0);
+        }
+        25% {
+          transform: translate(-100%);
+        }
+        25% {
+          transform: translate(-100%);
+        }
+        35% {
+          transform: translate(-200%);
+        }
+        35% {
+          transform: translate(-200%);
+        }
+        50% {
+          transform: translate(-300%);
+        }
+        50% {
+          transform: translate(-300%);
+        }
+        70% {
+          transform: translate(-400%);
+        }
+        70% {
+          transform: translate(-400%);
+        }
+        80% {
+          transform: translate(-500%);
+        }
+        80% {
+          transform: translate(-500%);
+        }
+        100% {
+          transform: translate(-600%);
+        }
+        100% {
+          transform: translate(0);
+        }
+         
+        
+      }
+      h3{
+        color: rgb(22, 129, 22)
+      }
+      @media(max-width:1250px){
+        .container{
+          width: 800px;
+          left: 600px;
+        }
+      }
+      @media (max-width:1100px){
+        .container{
+          width: 600px;
+          left: 450px; 
+        }
+      }
+      @media (max-width:800px){
+        .container{
+          width: 550px;
+        height: 300px;
+        left: 275px;
+        }
+      }
+      @media (max-width:500px){
+        .container{
+          width: 400px;
+        height: 300px;
+         left: 200px ;
+        }
+      }
+      
+      
+    </style>
+  </head>
+  <body>
+    <br />
+    <center>
+      <h1 id="id">Heros</h1>
+      <h2 id="op"></h2>
+    </center>
+    <br /><br /><br /><br />
+   <center>
+    <div class="container">
+      <div class="images">
+        <img
+          src="https://www.bulletecho.game/static/4914eccb96b768f85ab905a88341504a/83f03/variety-carousel-ambushers.png "
+        />
+        <img
+          src="https://www.bulletecho.game/static/9c038ce2789c463c5ebf6f3e36507bfa/83f03/variety-carousel-snipers.png "
+        />
+        <img
+          src="https://www.bulletecho.game/static/aecab64802df819377ae63c5d7cad88d/83f03/variety-carousel-troopers.png "
+        />
+        <img
+          src="https://www.bulletecho.game/static/e19781c0198e2192a6c307c055087973/83f03/variety-carousel-scouts.png "
+        />
+          <img src="https://www.bulletecho.game/static/d01b9ae03dddffa91e6226c130dda6db/83f03/variety-carousel-tanks.png" alt="">
+          <img src="https://tiermaker.com/images/templates/all-bullet-echo-heroes-15412775/154127751680541590.jpg" alt="">
+      </div>
+    </div></center>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <center>
+      <footer>
+        <a href="index.html"><button><h3>Return to initial Page</h3></button></a>
+      </footer>
+    </center>
+  </body>
+  </html>
